@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Registration</title>
+        <link rel="stylesheet" type="text/css" href="reset.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <img src="mountains-1.jpg" alt="" class="photo"/>
+                <div class="profile">
+                    <h1 class="title">Регистрация</h1>
+                    <form action="https://www.bit-by-bit.ru/form-submit">
+                        <div class="box">
+                            <div class="field">
+                                <div>
+                                    <label class="line-text" for="firstName">Имя</label>
+                                    <div>
+                                       <input class="line" type="text" id="firstName" name="firstName"/>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="field">
+                                <div>
+                                    <label class="line-text" for="lastName">Фамилия</label>
+                                    <div>
+                                       <input class="line" type="text" id="lastName" name="lastName"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="box">
+                            <div class="field">
+                                <div>
+                                    <label class="line-text" for="e-mail">Email</label>
+                                    <div>
+                                       <input class="line" type="text" id="e-mail" name="e-mail"/>
+                                    </div>
+                                </div>
+                            </div>    
+                            <div class="field">
+                                <div>
+                                    <label class="line-text" for="phone">Телефон</label>
+                                    <div>
+                                       <input class="line" type="text" id="phone" name="phone"/>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </form>
+                    <div class="lines"></div>
+                    <h2 class="title-address">Адрес доставки</h2>
+                    <form action="https://www.bit-by-bit.ru/form-submit">
+                        <div class="box">
+                            <div class="field">
+                                <div>
+                                    <label class="line-text" for="country">Страна</label>
+                                    <div>
+                                       <input class="line" type="text" id="country" name="country"/>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="field">
+                                <div>
+                                    <label class="line-text" for="city">Город</label>
+                                    <div>
+                                       <input class="line" type="text" id="city" name="city"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div>
+                                    <label class="line-text" for="index">Почтовый индекс</label>
+                                    <div>
+                                       <input class="line" type="text" id="index" name="index"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="box">
+                            <div class="field">
+                                <div>
+                                    <label class="line-text" for="address">Адрес доставки (улица, дом, квартира)</label>
+                                    <div>
+                                       <input class="line" type="text" id="address" name="address"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>      
+                    </form>
+                    <div class="lines"></div>
+                    <h3 class="title-address">Уведомлять об акциях и скидках</h3>
+                    <p class="text">Мы не будем отправлять спам, но напишем, когда поступят новые товары или будет большая распродажа.</p>
+                    <form action="https://www.bit-by-bit.ru/form-submit">
+                        <div class="notice">
+                            <div>
+                                <input class="" type="checkbox" id="contactChoice1" name="contacts" value="email"/>
+                                <label class="line-text" for="contactChoice1">По E-mail</label>
+                            </div>
+                            <div>
+                                <input class="" type="checkbox" id="contactChoice2" name="contacts" value="sms"/>
+                                <label class="line-text" for="contactChoice2">По SMS</label>
+                            </div>
+                            <div>
+                                <input class="" type="checkbox" id="contactChoice3" name="contacts" value="push"/>
+                                <label class="line-text" for="contactChoice3">Push-уведомления в приложении</label>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="lines"></div>
+                    <button class="button" type="submit">Создать аккаунт</button>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>
